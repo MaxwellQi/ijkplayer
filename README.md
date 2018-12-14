@@ -232,7 +232,8 @@ cd ios
 
 ```
 /*
-经测试(XCode10.0)，按照上述步骤最终运行demo时发现有`ffmpeg`相关的错误，经调研发现可能是和`ffmpeg`版本有关。因此在`git checkout -B latest` 的时候，选择`k0.5.1`分支。
+经测试(XCode10.0)，按照上述步骤最终运行demo时发现有`ffmpeg`相关的错误，经调研发现可能是和`ffmpeg`版本有关。
+因此在`git checkout -B latest` 的时候，选择`k0.5.1`分支。
 
 在编译`ffmpeg`时，由于编译所有的版本即耗时又增加了出错的可能，所以可以编译指定版本的ffmpeg. 
 
